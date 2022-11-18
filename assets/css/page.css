@@ -1,0 +1,42 @@
+.options .option-box {
+    margin: auto;
+}
+
+.options .option-box li {
+    list-style: none;
+    text-align: center;
+    padding: 8px 80px;
+    transition: all ease-in-out 0.3s;
+    box-shadow: 0px 2px 2.8px var(--primary);
+    border-radius: 50px;
+    margin: 20px;
+}
+
+.options .option-box li a {
+    color: #000;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.options .option-box li:hover {
+    background: var(--primary);
+    border-color: var(--primary);
+    padding: 12px 80px;
+}
+
+#page-404 {
+    text-align: center;
+    margin: 0%;
+    padding: 28px;
+}
+
+#page-404 p {
+    font-size: 14px;
+    color: #000;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+#page-404 i {
+    font-size: 200px;
+}
